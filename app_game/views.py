@@ -55,7 +55,7 @@ def user_list(request):
 
 
 ## Function to create a role.
-# Author Jose
+# Author Balu
 @require_POST
 # @login_required
 def api_create_role(request):
