@@ -60,7 +60,6 @@ def user_list(request):
 # @login_required
 def api_create_role(request):
     try:
-        print('======',request.POST)
         with transaction.atomic():            
             user_id = request.POST.get('user_id')
             code = request.POST.get('code')
