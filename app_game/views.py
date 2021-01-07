@@ -29,6 +29,7 @@ import random
 # from app_alfred import utility
 # from app_alfred.models import * 
 def home(request):
+    print('candy')
     return render(request, 'home.html')
 
 
